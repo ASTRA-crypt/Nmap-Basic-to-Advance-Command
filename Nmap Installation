@@ -1,0 +1,16 @@
+Installation of Nmap in linux: 
+
+commands of installing nmap from source code full powerful version
+	$ svn
+	$ svn help
+	$ apt install libssl-dev autoconf make g++ subversion
+	$ svn co https://svn.nmap.org/nmap
+	$ ./configure --help
+	$ ./configure
+	$ make
+	
+	
+	if after "make" command if you get error type command
+		$ sudo pip install setuptools==62.0.0
+		
+	$ make install
